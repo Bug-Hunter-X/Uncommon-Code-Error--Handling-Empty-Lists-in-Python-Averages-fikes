@@ -1,0 +1,3 @@
+# Uncommon Code Error: Handling Empty Lists in Python Averages
+
+This repository demonstrates a common error in Python when calculating averages and how to avoid it. The `bug.py` file contains code that will raise a `ZeroDivisionError` if an empty list is passed to the `calculate_average` function. The `bugSolution.py` file provides a solution that handles this potential error gracefully by returning 0 for an empty list.
